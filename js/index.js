@@ -1,3 +1,4 @@
+
 function loveclcuketor(){
    var fastName = document.getElementById('fastName').value;
    var lastName = document.getElementById('lastName').value;
@@ -22,6 +23,9 @@ function loveclcuketor(){
    love = Math.floor(love);
    document.getElementById('loveId').value = love + "%"; 
    }
-   fastName.innerText="";
-   lastName.innerText="";
-      }
+}
+const click = document.getElementById('click');
+click.addEventListener('click',function(){
+   document.getElementById('fastName').value='';
+   document.getElementById('lastName').value='';
+})
