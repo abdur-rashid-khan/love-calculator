@@ -22,5 +22,6 @@ function loveclcuketor(){
    love = Math.floor(love);
    document.getElementById('loveId').value = love + "%"; 
    }
-   
+   fastName.innerText="";
+   lastName.innerText="";
       }
